@@ -3,7 +3,7 @@
 
 body {
   background: #fff;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.7);
   background: #222;
   line-height: 1.7;
   font-size: 16px;
@@ -46,7 +46,8 @@ a {
   transition: .3s all;
   color: #bac964; }
   a:hover, a:focus, a:active {
-    color: #b2c251;
+    /* color: #b2c251; */
+    color: #D9E8AC;
     text-decoration: none; }
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
@@ -610,14 +611,15 @@ a {
     box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.2); }
 
 .block-47 .block-47-quote {
-  margin-left: 40px;
+  margin-left: 20px;
+  /* margin-left: 40px; */
   padding: 10px;
   background: #333;
   border-radius: 7px;
   position: relative;
   -webkit-box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1); }
-  .block-47 .block-47-quote:before {
+  /* .block-47 .block-47-quote:before {
     content: "";
     border: 1px solid red;
     z-index: 2;
@@ -625,7 +627,7 @@ a {
     left: -15px;
     border-width: 0 20px 20px 0;
     border-style: solid;
-    border-color: transparent #333 transparent transparent; }
+    border-color: transparent #333 transparent transparent; } */
   .block-47 .block-47-quote .block-47-quote-author {
     font-size: 14px;
     color: #666666; }
@@ -653,6 +655,26 @@ a {
 .author_me {
   font-style: italic;
   font-weight: bold;
+  color: #dddddd;
+}
+
+.intern_name {
+  color: #dddddd;
+}
+
+.year {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.pub_idx {
+  /* font-style: italic;
+  font-weight: bold; */
+  color: #ffffff;
+}
+
+.paperlink {
+	/* color: #8EC2FF; */
   color: #ffffff;
 }
 
@@ -665,6 +687,11 @@ a {
 .serdesccol {
 	float: left;
 	width: 70%;
+}
+
+.award {
+  font-weight: bold;
+  color: #FF3154;
 }
 
 /* Button */
@@ -713,11 +740,11 @@ button,
   button.icon.solo,
   .button.icon.solo {
     position: relative;
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
-    border-radius: 4rem;
-    text-indent: 4rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 3rem;
+    text-indent: 3rem;
     overflow: hidden;
     padding: 0;
     white-space: nowrap;
