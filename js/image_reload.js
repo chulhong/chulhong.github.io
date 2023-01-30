@@ -2,7 +2,8 @@ function randomImage(){
     var images = [
      'images/intro.jpg',
      'images/intro_2.jpg',
-     'images/intro_3.jpg'];
+     'images/intro_3.jpg',
+     'images/intro_4.jpg'];
     var size = images.length;
     var x = Math.floor(size * Math.random());
     console.log(x);
