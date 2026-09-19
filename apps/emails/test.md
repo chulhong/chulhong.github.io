@@ -1,28 +1,29 @@
+---
+layout: default
+title: Markdown Test
+---
+
 # Markdown Test Page
 
-This is a simple Markdown test page for GitHub Pages.
+This is a simple Markdown test page.
 
-## 1. Text Formatting
+## Text Formatting
 
-You can write **bold text**, *italic text*, and `inline code`.
+**Bold text**
+
+*Italic text*
+
+`inline code`
 
 > This is a blockquote.
 
-## 2. Lists
-
-### Unordered List
+## List
 
 - Apple
 - Banana
 - Orange
 
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-## 3. Code
+## Code
 
 ```python
 def hello():
